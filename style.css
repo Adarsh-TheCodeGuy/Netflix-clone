@@ -131,3 +131,68 @@ button {
 button:hover {
   background-color: rgb(187, 0, 0);
 }
+
+/** tv-sec **/
+.tv {
+  height: 400px;
+  background-color: black;
+  display: flex;
+}
+
+.text1 {
+  color: white;
+  margin-left: 32px;
+  width: 630px;
+}
+
+.tv-txt {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.tv-img {
+  width: 530px;
+  height: 398px;
+  background-image: url(tv.png);
+  background-size: cover;
+}
+
+.device-img {
+  background-image: url(devices.png);
+  width: 530px;
+  height: 398px;
+  background-size: cover;
+}
+
+/** faq **/
+.faq {
+  background-color: black;
+  height: 740px;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ques {
+  height: 480px;
+}
+
+.q1 {
+  margin-left: 250px;
+  margin-top: 8px;
+  width: 960px;
+  height: 84px;
+  background-color: rgb(123, 123, 123);
+  border: none;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.q1:hover {
+  background-color: rgb(175, 175, 175);
+}
