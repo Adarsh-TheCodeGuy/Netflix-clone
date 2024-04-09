@@ -53,3 +53,81 @@
 .sign:hover {
   background-color: rgb(187, 0, 0);
 }
+
+/** hero-sec **/
+.hero-sec {
+  height: 512px;
+  width: auto;
+}
+
+.hero-img {
+  background-image: url(hero-page.jpg);
+  height: 512px;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  margin-top: 150px;
+}
+
+.txt1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin-top: 0.85rem;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.txt2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+
+.mail {
+  height: 54px;
+  width: 360px;
+  border: 0.125rem solid gray;
+  border-radius: 4px;
+  color: gray;
+  background-color: black;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+button {
+  height: 54px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 4px;
+  background-color: rgb(236, 44, 44);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(187, 0, 0);
+}
